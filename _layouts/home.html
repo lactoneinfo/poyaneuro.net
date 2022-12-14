@@ -20,9 +20,9 @@ layout: default
     {% if post.preview != 0 %}
       <p>{{ post.content | truncatewords: 35 }}</p>
     {% endif %}
-    <footer> 
+    <footer>
       <ul class="actions">
-        <li><a href="{{ post.url | relative_url }}" class="button big">Читать Далее</a></li>
+        <li><a href="{{ post.url | relative_url }}" class="button big">読む</a></li>
       </ul>
       <ul class="stats">
         <li><a class="icon" href="{{ site.baseurl }}/{{ post.category }}"><i class="fas fa-fw fa-folder"></i> {{ post.category }}</a></li>

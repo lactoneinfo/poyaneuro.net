@@ -7,13 +7,13 @@ url: "https://poyaneuro.net" # the base hostname & protocol for your site, e.g. 
 
 author:
   name: 'lactoneinfo'
-#  last_name: 'Kapitonenko'
-#  cv: '//kaptn.ru'
+  last_name: 'lactoneinfo'
+  cv: '//twitter.com/poyaneuro'
   avatar: '/images/myicon.jpg'
   github_username: lactoneinfo
 #  email: vika@kaptn.ru
 #  vk_id: id201664979
-#  telegram_name: vikapitoshka 
+  telegram_name: 数理神経科学の世界
 #  logo: '/images/logo.svg'
 
 # Build settings
