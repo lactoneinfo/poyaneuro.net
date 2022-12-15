@@ -10,7 +10,7 @@ url: "https://poyaneuro.net" # the base hostname & protocol for your site, e.g. 
 author:
   name: 'lactoneinfo'
   last_name: 'lactoneinfo'
-  cv: '//twitter.com/poyaneuro'
+  cv: '//twitter.com/lactoneinfo'
   avatar: '/images/myicon.jpg'
   github_username: lactoneinfo
 #  email: vika@kaptn.ru
