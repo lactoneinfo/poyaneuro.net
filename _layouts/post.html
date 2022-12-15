@@ -8,7 +8,8 @@ layout: default
       <!--<p><a href="//github.com/ViKapitoshka/blog/edit/master/{{ page.path }}" class="icon"><i class="fas fa-fw fa-edit"></i> Редактировать на GitHub</a></p>-->
     </div>
     <div class="meta">
-      <time class="published" datetime="{{ page.date }}">{{ page.date | date: "%d %b %Y %R" }}</time>
+      <time class="published" datetime="{{ page.date }}">作成 {{ page.date | date: "%Y-%m-%d"}}</time>
+      <time class="published" datetime="{{ page.redate }}">更新 {{ page.redate | date: "%Y-%m-%d" }}</time>
       <a href="{{ site.author.cv }}" class="author"><span class="name">{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="ViKapitoshka" /></a>
     </div>
   </header>

@@ -43,9 +43,9 @@
 				text-align: right;
 				width: 17em;
 
-				> * {
-					margin: 0 0 (_size(element-margin) * 0.5) 0;
-				}
+				//> * {
+				//	margin: 0 0 (_size(element-margin) * 0.5) 0;
+				//}
 
 				> :last-child {
 					margin-bottom: 0;
@@ -55,10 +55,10 @@
 					color: _palette(fg-bold);
 					display: block;
 					font-family: _font(family-heading);
-					font-size: 0.7em;
+					font-size: 1.0em;
 					font-weight: _font(weight-heading-bold);
 					letter-spacing: _font(kerning-heading);
-					margin-top: 0.5em;
+					margin-top: 0em;
 					text-transform: uppercase;
 					white-space: nowrap;
 				}
