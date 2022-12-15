@@ -11,7 +11,7 @@ layout: default
       </div>
       <div class="meta">
         <time class="published" datetime="{{ post.date }}">作成 {{ post.date | date: "%Y-%m-%d"}}</time>
-        <time class="published" datetime="{{ post.redate }}">更新 {{ post.redate | date: "%Y-%m-%d" }}</time>
+        {% if post.redate %}<time class="published" datetime="{{ post.redate }}">更新 {{ post.redate | date: "%Y-%m-%d" }}</time>{% endif %}
         <a href="{{ site.author.cv }}" class="author"><span class="name">{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="ViKapitoshka" /></a>
       </div>
     </header>
