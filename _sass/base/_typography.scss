@@ -12,6 +12,8 @@
 		font-size: 14pt;
 		font-weight: _font(weight);
 		line-height: 1.75;
+		//シャギー解消
+		transform: rotate(0.05deg);
 
 		@include breakpoint(xlarge) {
 			font-size: 12pt;
