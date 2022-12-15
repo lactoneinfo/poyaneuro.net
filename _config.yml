@@ -1,6 +1,8 @@
 title: 数理神経科学の世界
 description: > # this means to ignore newlines until "baseurl:"
-  神経科学で勉強したことをまとめていきます<br>
+  神経科学を中心に、勉強したことをまとめていきます。
+  記事の内容に明らかな誤りがある場合は、Twitter等でお知らせください。
+  当サイトの引用はご自由にどうぞ。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://poyaneuro.net" # the base hostname & protocol for your site, e.g. http://example.com
 

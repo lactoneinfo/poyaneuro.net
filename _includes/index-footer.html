@@ -4,18 +4,22 @@
               <a href="{{site.author.cv}}" class="logo"><img src="{{site.author.logo | prepend: site.baseurl}}" alt="" /></a>
               <header>
                 <h2>最近の投稿</h2>
-                <p>By <a href="{{site.author.cv}}">{{site.author.name}}</a></p>
               </header>
             </section>
             <section class="blurb">
               <h2>about</h2>
               <p>{{ site.description }}</p>
-              <ul class="actions">
-                <li><a href="//github.com/lactoneinfo" class="button">Fork me</a></li>
-              </ul>
+              <!--<ul class="actions">
+                <li><a href="//github.com/lactoneinfo" class="button">About</a></li>
+              </ul>-->
             </section>
- 
-
+            <section class="blurb">
+              <h2>my profile</h2>
+              <a href="{{ site.author.cv }}" class="author"><img src="{{ site.author.avatar }}"/></a>
+              <a href="{{ site.author.cv }}" class="author"><span class="name">{{ site.author.last_name }}</span></a>
+              <p>東京大学理科一類2年</p>
+            </section>
+            
             <!-- Footer -->
               <section id="footer">
                 <ul class="icons">
