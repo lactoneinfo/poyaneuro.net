@@ -10,8 +10,9 @@ layout: default
         <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
       </div>
       <div class="meta">
-        <time class="published" datetime="{{ post.date }}">{{ post.date | date: "%d %b %Y %R" }}</time>
-        <!--<a href="{{ site.author.cv }}" class="author"><span class="name">V.{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="VKapitonenko" /></a>-->
+        <time class="published" datetime="{{ post.date }}">作成 {{ post.date | date: "%Y-%m-%d"}}</time>
+        <time class="published" datetime="{{ post.redate }}">更新 {{ post.redate | date: "%Y-%m-%d" }}</time>
+        <a href="{{ site.author.cv }}" class="author"><span class="name">{{ site.author.last_name }}</span><img src="{{ site.author.avatar | prepend: site.baseurl }}" alt="ViKapitoshka" /></a>
       </div>
     </header>
     {% if post.image %}
