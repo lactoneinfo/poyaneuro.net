@@ -83,6 +83,15 @@
 				}
 			}
 		}
+		.sharebutton {
+			text-align: right;
+			//border-left: solid 1px _palette(border);
+			height: inherit;
+			line-height: inherit;
+			margin-right: 1.5em;
+			overflow: hidden;
+			padding-right: 1em;
+		}
 
 		.main {
 			height: inherit;

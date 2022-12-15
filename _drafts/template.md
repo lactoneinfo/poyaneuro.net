@@ -2,6 +2,7 @@
 layout: post
 title:  "Lorem"
 date:   2017-06-04 00:00
+redate: 2022-12-12 00:00
 category: category1
 icon: git
 keywords: tag1, tag2
