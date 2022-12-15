@@ -2,7 +2,7 @@
 layout: post
 title:  "test1"
 date:   2017-06-03 00:00
-category: category1
+category: others
 icon: www
 keywords: tag1, tag2
 image: 1.jpg

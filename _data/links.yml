@@ -1,6 +1,9 @@
 # blog page sections
-- name: category1
-  href: '/category1/'
+- name: 神経科学
+  href: '/neuroscience/'
 
-- name: category2
-  href: '/category2/'
+- name: 物理学
+  href: '/physics/'
+
+- name: その他
+  href: '/others/'
