@@ -55,7 +55,8 @@
 
 					h3 {
 						@include vendor('transition', 'color #{_duration(transition)} ease');
-						font-size: 0.7em;
+						//タブのfont-size
+						font-size: 1.1em;
 					}
 
 					p {
