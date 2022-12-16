@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Lorem"
-date:   2017-06-04 00:00
-redate: 2022-12-12 00:00
-category: neuroscience
-icon: git
+title:  "Jekyllを使ってサイトを作ってみた(備忘録)"
+date:   2022-12-16 08:21
+redate: 
+category: others
+icon: www
 keywords: tag1, tag2
 image: 
 preview: 1
