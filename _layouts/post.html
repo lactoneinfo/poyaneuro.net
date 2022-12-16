@@ -17,7 +17,6 @@ layout: default
   </header>
   {{ content }}
   
-  <p>Подписывайтесь на наш <a href="http://t.me/vikablog">канал</a> в телеграмме :)
   <footer>
     <ul class="stats">
       <li><a class="icon" href="{{ site.url }}"><i class="fas fa-fw fa-folder"></i> ホームに戻る</a></li>
@@ -29,10 +28,10 @@ layout: default
 </article>
 <ul class="actions pagination">
   {% if page.previous.url %}
-    <li><a href="{{page.previous.url}}" class="button big previous icon"><i class="fw fas fa-chevron-left"></i> Туда</a></li>
+    <li><a href="{{page.previous.url}}" class="button big previous icon"><i class="fw fas fa-chevron-left"></i> 前の記事</a></li>
   {% endif %}
   {% if page.next.url %}
-    <li><a href="{{page.next.url}}" class="button big next icon">next <i class="fw fas fa-chevron-right"></i></a></li>
+    <li><a href="{{page.next.url}}" class="button big next icon">次の記事 <i class="fw fas fa-chevron-right"></i></a></li>
   {% endif %}
 </ul>
 
